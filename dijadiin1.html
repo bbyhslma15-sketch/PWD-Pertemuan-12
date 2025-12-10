@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>Javascript Gabungan</title>
+</head>
+<body>
+
+<h2>1. Ubah Background Jadi Pink</h2>
+<input type="button" value="Pink Background"
+       onclick="document.bgColor='pink'"/>
+<br><br>
+
+<h2>2. Tampilkan Alert</h2>
+<input type="button" value="Klik Aku"
+       onclick="alert('Hai, ini baby hoshi salma')"/>
+<br><br>
+
+<h2>3. Lihat Jam Sekarang</h2>
+<input type="button" value="Lihat Jam Sekarang"
+       onclick="alert('Sekarang jam: ' + new Date().toLocaleTimeString())"/>
+<br><br>
+
+<h2>4. Ganti Warna Tulisan</h2>
+<p id="teks4">Ini adalah tulisan yang bisa diganti warnanya</p>
+<input type="button" value="Ganti Jadi Merah"
+       onclick="document.getElementById('teks4').style.color='red'"/>
+<input type="button" value="Ganti Jadi Biru"
+       onclick="document.getElementById('teks4').style.color='blue'"/>
+<br><br>
+
+<h2>5. Penjumlahan Angka</h2>
+Masukkan angka pertama:
+<input type="text" id="a"><br><br>
+
+Masukkan angka kedua:
+<input type="text" id="b"><br><br>
+
+<input type="button" value="Hitung"
+       onclick="alert('Hasilnya adalah: ' + (parseInt(a.value) + parseInt(b.value)))"/>
+
+</body>
+</html>
